@@ -1,0 +1,38 @@
+@import url("reset.css");
+
+* {
+  color: rgb(72, 66, 73);
+}
+
+a {
+  color: rgb(29, 216, 216);
+}
+
+p {
+  color: green;
+}
+
+.about__text p,
+.portners__text p {
+  color: rgb(85, 50, 72);
+}
+
+[class*="title"] {
+  color: rgba(158, 99, 11, 0.842);
+}
+
+.values__item {
+  color: rgb(210, 32, 166);
+}
+
+.equipment__text a {
+  color: rgba(2, 29, 53, 0.663);
+}
+
+.stategy__text a {
+  color: rgb(244, 17, 58);
+}
+
+.values__link {
+  color: rgb(173, 226, 88);
+}
