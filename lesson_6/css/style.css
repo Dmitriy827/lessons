@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter&family=Poppins:wght@600&display=swap');
+
+/* font-family: 'DM Serif Text', serif; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+@import url("reset.css");
+
+body {
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #7D7D7D;
+  line-height: 1.46;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 693px;
+  margin-bottom: 40px;
+}
+
+.header_img {
+  max-width: 100%;
+  margin-bottom: 37px;
+}
+
+.header_title {
+  color: #37393F;
+  font-size: 30px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+.content_title {
+  color: #6B77E5;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 12px;
+}
+
+.inner {
+  display: inline-block;
+  max-width: 332px;
+}
+
+.section {
+  font-size: 0;
+}
+
+.section-img {
+  margin-right: 29px;
+}
+
+.inner_title {
+  color: #37393F;
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 15px;
+}
+
+.inner_sub__title {
+  color: #40DDB6;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 21px;
+}
+
+.list {
+  font-size: 18px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.container-jevels {
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 60px;
+}
+
+.wraper {
+  text-align: left;
+  display: inline-block;
+  max-width: 563px;
+  margin-right: 38px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.wraper-info {
+  color: #D06B00;
+  font-size: 28px;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+
+.wraper-title {
+  color: #0E333D;
+  font-family: 'DM Serif Text';
+  font-size: 59px;
+  margin-bottom: 25px;
+}
+
+.wraper-text {
+  color: #474747;
+  font-size: 20px;
+  line-height: 1.80;
+}
+
+.wraper-img {
+  margin-right: 22px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(230, 222, 222);
+}
+
+.footer-title {
+  color: #ee5b12;
+  font-family: 'DM Serif Text';
+  font-size: 59px;
+  margin-bottom: 40px;
+}
+
+.footer-block {
+  color: #37393F;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  overflow: scroll;
+}
+
+.fotter-inner {
+  color: black;
+  text-align: left;
+  padding: 20px;
+}
