@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>lesson_20</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    </header>
+
+    <main class="page">
+      <div class="page__container">
+        <h2 class="page__title title">
+          My Info
+        </h2>
+        <div class="page__subtitle title">
+          Add Address
+        </div>
+        <form id="some-form" class="form" enctype="multipart/form-data" method="POST" action="#">
+          <div class="form__body">
+            <div class="form__item">
+              <label class="form__lable" for="fname">First Name*</label>
+              <input class="form__input" required id="fname" autocomplete="on" name="name" placeholder="First Name"
+                type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="lname">First Name*</label>
+              <input class="form__input" required id="lname" autocomplete="on" name="lname" placeholder="Last Name"
+                type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="region">Country / Region*</label>
+              <input class="form__input" required id="region" autocomplete="on" name="region"
+                placeholder="Country / Region" type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="company">Company Name</label>
+              <input class="form__input" id="company" autocomplete="on" name="name" placeholder="Company (optional)"
+                type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="addres">Street Address*</label>
+              <input class="form__input" required id="addres" autocomplete="on" name="addres"
+                placeholder="House number and street name" type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="apt">Apt, suite, unit</label>
+              <input class="form__input" id="apt" autocomplete="on" name="apt"
+                placeholder="apartment, suite, unit, etc. (optional)" type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="city">City*</label>
+              <input class="form__input" required id="city" autocomplete="on" name="city" placeholder="Town / City"
+                type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="state">State*</label>
+              <input class="form__input" required id="state" autocomplete="on" name="state" placeholder="State"
+                type="text">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="phone">Phone*</label>
+              <input class="form__input" required id="phone" autocomplete="on" name="phone" placeholder="Phone"
+                type="tell">
+            </div>
+
+            <div class="form__item">
+              <label class="form__lable" for="postal">Postal Code*</label>
+              <input class="form__input" required id="postal" autocomplete="on" name="name" placeholder="Postal Code"
+                type="number">
+            </div>
+
+            <div class="form__item form__item--textarea">
+              <label class="form__lable" for="message">Delivery Instruction</label>
+              <textarea class="form__textarea" name="coment" id="message" cols="30" placeholder="Delivery Instruction"
+                rows="10">
+              </textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+  </div>
+</body>
+
+</html>

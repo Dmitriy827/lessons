@@ -1,0 +1,105 @@
+@import "_reset.scss";
+
+@import "_fonts.scss";
+
+.wrapper {
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.wrapper main {
+  flex-grow: 1;
+}
+
+body {
+  color: #3c4242;
+  font-family: "Causten";
+  font-size: 18px;
+}
+
+.title {
+  font-family: "Core Sans C";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.5px;
+  letter-spacing: 0.56px;
+}
+
+.page {
+  // .page__container
+
+  &__container {
+    max-width: 952px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  // .page__title
+
+  &__title {
+  }
+
+  // .page__subtitle
+
+  &__subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.44px;
+  }
+}
+
+.form {
+  // .form__body
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 42px;
+    grid-row-gap: 31px;
+    @media (max-width: 650px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  // .form__item
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  // .form__lable
+
+  &__lable {
+    font-weight: 600;
+    letter-spacing: 0.36px;
+  }
+
+  // .form__input
+
+  &__input {
+    padding: 17px 21px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    color: #807d7e;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+    &:focus {
+      color: black;
+    }
+    &:hover {
+      background: #d0cbcb;
+      transition: all 0.3s;
+    }
+  }
+
+  &__textarea {
+    padding: 18px 22px;
+    background-color: #f6f6f6;
+  }
+}
